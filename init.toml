@@ -10,6 +10,9 @@
 [options]
     windows_leader = "s"
 
+   todo_labels = ['fixme', 'question', 'todo', 'idea']
+   todo_prefix = '@'
+
     # set spacevim theme. by default colorscheme layer is not loaded,
     # if you want to use more colorscheme, please load the colorscheme
     # layer
