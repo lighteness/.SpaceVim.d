@@ -1,4 +1,5 @@
-
+# install ripgrep
+brew install ripgrep
 
 # install global
 brew install global
