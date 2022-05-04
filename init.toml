@@ -10,8 +10,11 @@
 [options]
     windows_leader = "s"
 
-   todo_labels = ['fixme', 'question', 'todo', 'idea']
-   todo_prefix = '@'
+    todo_labels = ['fixme', 'question', 'todo', 'idea']
+    todo_prefix = '@'
+   
+    bootstrap_after = "config#after"
+    bootstrap_before = "config#before"
 
     # set spacevim theme. by default colorscheme layer is not loaded,
     # if you want to use more colorscheme, please load the colorscheme
@@ -35,11 +38,6 @@
 
 
 
-# Enable autocomplete layer
-[[layers]]
-name = 'coc'
-auto_completion_return_key_behavior = "complete"
-auto_completion_tab_key_behavior = "cycle"
 
 [[layers]]
 name = 'shell'
@@ -50,16 +48,28 @@ default_height = 30
   name = "lang#go"
 
 [[layers]]
+  name = "lsp"
+  filetypes = [
+    "go"
+  ]
+
+[[layers]]
+  name = "test"
+
+
+# Enable autocomplete layer
+[[layers]]
+name = 'coc'
+auto_completion_return_key_behavior = "complete"
+auto_completion_tab_key_behavior = "cycle"
+  
+
+[[layers]]
   name = "format"
 
 [[layers]]
   name = "debug"
 
-[[layers]]
-  name = "lsp"
-  filetypes = [
-    "go"
-  ]
 
 [[layers]]
   name = "gtags"
@@ -71,3 +81,7 @@ default_height = 30
 
 [[layers]]
   name = "tools"
+
+[[layers]]
+  name = 'edit'
+  autosave_timeout = 300000
