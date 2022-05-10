@@ -13,8 +13,8 @@
     todo_labels = ['fixme', 'question', 'todo', 'idea']
     todo_prefix = '@'
    
-    bootstrap_after = "config#after"
-    bootstrap_before = "config#before"
+    #bootstrap_after = "config#after"
+    #bootstrap_before = "config#before"
 
     # set spacevim theme. by default colorscheme layer is not loaded,
     # if you want to use more colorscheme, please load the colorscheme
