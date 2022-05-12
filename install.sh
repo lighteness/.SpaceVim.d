@@ -1,3 +1,6 @@
+# install coc
+# :CocInstall coc-json coc-tsserver
+
 # install ripgrep
 brew install ripgrep
 
