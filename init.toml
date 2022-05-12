@@ -36,6 +36,9 @@
     # Enable vim compatible mode, avoid changing origin vim key bindings
     vimcompatible = true
 
+    autocomplete_method = "coc"
+
+
 
 
 
@@ -59,9 +62,7 @@ default_height = 30
 
 # Enable autocomplete layer
 [[layers]]
-name = 'coc'
-auto_completion_return_key_behavior = "complete"
-auto_completion_tab_key_behavior = "cycle"
+name = 'autocomplete'
   
 
 [[layers]]
